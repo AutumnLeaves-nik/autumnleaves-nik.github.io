@@ -1,0 +1,141 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #111;
+    color: wheat;
+}
+
+.logo {
+    color: #00bfff;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+    nav a:hover {
+        color: #00bfff;
+    }
+
+
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .hero h1 {
+        font-size: 70px;
+        color: #00bfff;
+    }
+
+    .hero h2 {
+        margin-top: 20px;
+    }
+
+    .hero p {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #00bfff;
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+    button:hover {
+        background: #009acd;
+    }
+
+    button:active {
+        transform: scale(0.95);
+    }
+
+.about,
+.skills,
+.goals,
+.contact {
+    padding: 5px 10%;
+    text-align: center;
+}
+    .about p,
+    .goals p {
+        margin-top: 20px;
+        line-height: 1.8;
+        transition: ease-in-out 0.3s;
+    }
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e1e1e;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .card li {
+        margin: 10px 0;
+    }
+
+
+
+.socials {
+    margin-top: 30px;
+}
+
+    .socials a {
+        color: #00bfff;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+
+input,
+textarea {
+    width: 300px;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
